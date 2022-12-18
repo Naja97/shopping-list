@@ -1,0 +1,30 @@
+body {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-size: 42px 40px;
+    background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 1px, #e5e5f7 1px, #e5e5f7);
+}
+.done {
+    text-decoration: line-through;
+}
+
+.container{
+    display: flex;
+    justify-content: center; 
+    
+}
+.center {
+    align-items: center;
+}
+.btn {
+    margin: 5px 20px;
+    padding: 5px 15px;
+    color: #a463f2;;
+    background-color: black;
+    border-radius: .5rem; 
+    cursor: pointer;
+}
+
+li {
+    cursor: pointer;
+}
